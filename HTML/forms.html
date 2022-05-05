@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+<form action="">
+    <p>
+        <label for="username">Enter a Username</label>
+        <input id="username" type="text" placeholder="name" name="username"> <br>
+    </p>
+    
+    <p>
+        <label for="password">Enter a Password</label>
+        <input id="password" type="password" placeholder="Password" name="password" >
+    </p>
+    <p>
+        <label for="color">Enter a color</label>
+        <input id="color" type="color" name="color">
+    </p>
+    <p>
+        <label for="time">Enter a Time</label>
+        <input id="time" type="time"name=time >
+    </p>
+    <p>
+        <label for="range">Pick a Range</label>
+        <input id="range" type="range" name="range" >
+    </p>
+    <p>
+        <!-- otra manera de escribir el label -->
+        <label>
+            Enter a name
+            <input id="username2" type="text" placeholder="Name">
+        </label>
+        
+    </p>
+
+    <input type="submit">
+</form>
+
+
+<h2>Busqueda Google</h2>
+
+<form action="https://www.google.com/search">
+        <input id="text" name="q" >
+        <button>Buscar En Google</button>
+</form>
+
+<h1>Ejemplo Boton radio </h1>
+<h2>talles Ropa</h2>
+<form action="">
+    <label for="xs">XS</label>
+    <input type="radio" name="size" id="xs" value="xs" >
+    <label for="s">S</label>
+    <input type="radio" name="size" id="s" value="s" >
+    <label for="m">M</label>
+    <input type="radio" name="size" id="m" value="m" >
+    <label for="l">L</label>
+    <input type="radio" name="size" id="l" value="l" >
+    <label for="g">G</label>
+    <input type="radio" name="size" id="g" value="g" >
+</form>
+
+<label for="meal">Please Select an Entree</label>
+<select name="meal" id="meal">
+    <option value="" selected>Escoge una Opcion</option>
+    <option value="fish">fish</option>
+    <option value="veg">vegetarian</option>
+    <option value="steak">steak</option>
+</select>
+
+
+
+</body>
+</html>
