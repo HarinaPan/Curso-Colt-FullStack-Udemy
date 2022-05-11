@@ -21,3 +21,12 @@ li {
     background: red;
     color: white;
 }
+
+button:hover {
+    background-color: #d62828;
+    color: #f77f00;
+}
+
+button:active {
+    background-color: #003049;
+}
