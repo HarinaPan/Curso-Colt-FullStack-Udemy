@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: black;
     font-family: monospace;
     text-align: center;
@@ -7,7 +7,7 @@ h1 {
     letter-spacing: 20px;
     text-decoration: wavy underline plum;
     text-transform: uppercase;
-}
+} */
 
 li {
     color: blue;
@@ -57,4 +57,16 @@ div.square:nth-of-type(2n+1) {
   /* Even paragraphs */
  div.square:nth-of-type(2n) {
     background-color: black;
+  }
+
+  .display {
+     background-color:palegoldenrod;
+     border: 1px solid black; 
+     display: inline;
+  }
+
+  span {
+      background-color: paleturquoise;
+      border: 1px solid black;
+      display: block;
   }
