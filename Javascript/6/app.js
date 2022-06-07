@@ -22,3 +22,5 @@ while (guess !== targetNum ) {
 }
 
 console.log("You got it in "+attempts+" attempts");
+
+funtion 
