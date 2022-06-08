@@ -2,20 +2,14 @@ console.log("Funciona")
 
 let lista = [];
 
-console.log("********************")
-console.log("Comandos Disponibles")
-console.log("Add - añade objeto a la lista")
-console.log("List - Muestra la lista de objetos")
-console.log("Delete - Introduzca index del objeto a eliminar")
-console.log("Quit - Salir")
-console.log("********************")
+
 
 let desicion= prompt("¿Que te gustaria hacer?")
 
 
-while (desicion!=="quit") {
+while (desicion!=="quit" && desicion!=="q") {
 
-  
+    desicion= prompt("¿Que te gustaria hacer?")
 
 if  (desicion ==="add") {
     let objetoAñadido = prompt("Agregar cosa por hacer (To-Do)")
@@ -40,14 +34,22 @@ if  (desicion ==="add") {
 } else if (desicion ==="delete") {
  
     let eliminado = parseInt(prompt("Indique el index del Objeto a eliminar"))
-    console.log( lista[eliminado]+" ha sido eliminado de la lista.")
-    lista.splice(eliminado,1);
+    
+    if (eliminado<=lista.length) {
+        console.log( lista[eliminado]+" ha sido eliminado de la lista.")
+        lista.splice(eliminado,1);
+    } else {
+        console.log("index invalido")
+    }
+    
 
 }
 
-desicion= prompt("¿Que te gustaria hacer?")
+
 
 }
+
+console.log("Has Salido de la app")
 
 
 
