@@ -3,7 +3,7 @@
 Curso Full Stack dirigido por Colt Steele.
 
 
-Descripcion 
+Descripcion <br>
 Hi! Welcome to the brand new version of The Web Developer Bootcamp, Udemy's most popular web development course.  This course was just completely overhauled to prepare students for the 2022 job market, with over 60 hours of brand new content. This is the only course you need to learn web development. There are a lot of options for online developer training, but this course is without a doubt the most comprehensive and effective on the market.  Here's why:
 
 This is the only Udemy course taught by a professional bootcamp instructor with a track record of success.
