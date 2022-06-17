@@ -58,3 +58,23 @@ console.log(Math.sqrt(9))
 const square = function (numer) {
     return Math.sqrt(numer);
 }
+
+
+const square2 = {
+    area: function (num) {
+        return num*num;
+    },
+    perimeter: function (num) {
+        return num*4;
+    }
+};
+
+
+const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg: function () {
+        this.eggCount+=1;
+        return "EGG"
+    }
+}
