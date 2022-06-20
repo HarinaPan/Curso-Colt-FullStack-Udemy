@@ -87,3 +87,17 @@ const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 
 const firstNames = fullNames.map(function(x){
     return x.first;
 });
+
+const greet = (name) => {
+    return `Hey ${name}!`;
+}
+
+const a = ['mark','stayces12345','q12356789','carrie']
+
+function validUserNames(usuarios) {
+    // your code here
+   let usuariosFiltrados = usuarios.filter(function (usuarios){
+        return usuarios.length<10;
+    })
+    return usuariosFiltrados;
+  }
