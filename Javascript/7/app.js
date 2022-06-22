@@ -92,12 +92,16 @@ const greet = (name) => {
     return `Hey ${name}!`;
 }
 
-const a = ['mark','stayces12345','q12356789','carrie']
+const piri = ['mark','stayces12345','q12356789','carrie']
 
-function validUserNames(usuarios) {
+function validUserNames(usernames) {
     // your code here
-   let usuariosFiltrados = usuarios.filter(function (usuarios){
+   let usuariosFiltrados = usernames.filter(function (usuarios){
         return usuarios.length<10;
     })
     return usuariosFiltrados;
   }
+
+  function allEvens (array) {
+    return array.every(array=> array  % 2 == 0)
+}
