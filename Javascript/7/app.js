@@ -105,3 +105,10 @@ function validUserNames(usernames) {
   function allEvens (array) {
     return array.every(array=> array  % 2 == 0)
 }
+
+
+let image = document.getElementById('unicorn');
+let heading = document.getElementById('mainheading');
+
+let doneTodos = document.querySelectorAll('done');
+let checkbox = document.querySelector('input [type="checkbox"]')
