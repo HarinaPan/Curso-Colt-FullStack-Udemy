@@ -1,7 +1,7 @@
-const allLinks = document.querySelectorAll('a');
+const allLinks = document.querySelectorAll('span');
 
 // for (let link of allLinks) {
-//     link.innerText = 'I AM A LINK!!!!'
+//     link.innerText = 'Disgunsting'
 // }
 
 
@@ -10,3 +10,10 @@ for (let link of allLinks) {
     link.style.textDecorationColor = 'magenta';
     link.style.textDecorationStyle = 'wavy'
 }
+
+
+let link = document.querySelector('img');
+link.setAttribute('src','https://devsprouthosting.com/images/chicken.jpg')
+link.setAttribute('alt','chicken')
+
+
