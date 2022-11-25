@@ -35,4 +35,4 @@ function lastElement (array) {
 
 //nmdndnndndww
 
-//r
+//nada 1.0
